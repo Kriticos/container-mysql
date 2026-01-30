@@ -1,5 +1,5 @@
 services:
-  srv-mysql:
+  ctr-mysql:
     image: ${RELEASE}
     container_name: ${CONTAINER_NAME}
     environment:
